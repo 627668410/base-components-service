@@ -21,6 +21,9 @@ const sequelize = new Sequelize(dbName, user, password, {
   port,
   logging: true, // 日志
   timezone: '+08:00', // 北京时间
+  // query: { // 返回源数据，而不时dataValues的包装对象
+  //   raw: true
+  // },
   define: {
     timestamps: true,
     paranoid: true, // 不从数据库中删除数据，而只是增加一个 deletedAt 标识当前时间
