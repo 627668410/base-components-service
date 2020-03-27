@@ -6,7 +6,7 @@ class InitManager {
     InitManager.loadConfig()
     InitManager.initRouter()
     InitManager.initResponse()
-    // InitManager.initModel()
+    InitManager.initModel()
   }
   static loadConfig() {
     const path = '../config'

@@ -29,5 +29,8 @@
   "_moduleAliases": {
     "@root": ".",
     "@models": "models"
+  },
+  "devDependencies": {
+    "koa-cors": "^0.0.16"
   }
 }

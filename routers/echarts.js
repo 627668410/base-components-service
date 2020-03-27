@@ -19,4 +19,9 @@ router.get('/stack', async (ctx) => {
   const data = await Echarts.getLine()
   throw new global.res.Success(data)
 })
+
+router.get('/map', async (ctx) => {
+  const data = await Echarts.getLine()
+  throw new global.res.Success(data)
+})
 module.exports = router
